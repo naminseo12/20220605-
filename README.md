@@ -1,4 +1,4 @@
-# 20220605과제 
+# 20220605 오픈소스SW
 
 ## top 
 
@@ -34,6 +34,7 @@ b : Batch 모드로 작동
 
 ### 옵션
 
+
 -e : 실행중인 모든 프로세스의 정보를 출력한다.
 
 -f : 프로세스에 대한 자세한 정보를 출력한다.
@@ -51,7 +52,34 @@ b : Batch 모드로 작동
 ![ps 명령어](https://user-images.githubusercontent.com/106607389/171991064-76b7348b-d991-49de-9ac6-fc5313fe4472.PNG)
 
 
-> ps와 top의 차이점
+> top과 ps의 차이점
 
-ps는 ps한 시점에 proc에서 검색한 cpu 사용량, top는 proc에서 일정 주기로 합산해서 cpu 사용량을 출력한다.
+top는 proc에서 일정 주기로 합산해서 cpu 사용량, ps는 ps한 시점에 proc에서 검색한 cpu 사용량을 출력한다. 
+
+## jobs
+
+**jobs는 작업이 중지된 상태, 백그라운드로 진행 중인 작업 상태, 변경되었지만 보고되지 않은 상태 등을 표시**
+
+### 백그라운드 작업 상태
+
+Running : 작업이 계속 진행중임
+
+Done :  작업이 완료되어 0을 반환함
+
+Done(code) : 작업이 종료되었으며 0이 아닌 코드를 반환함
+
+Stopped : 작업이 일시 중단
+
+Stopped(SIGSTP) : SIGSTP 시그널이 작업을 일시중단함
+
+Stopped(SIGTOP) : SIGTOP 시그널이 작업을 일시중단함
+
+Stopped(SIGTIN) : SIGTIN 시그널이 작업을 일시중단함
+
+Stopped(SIGTOU) : SIGTOU 시그널이 작업을 일시중단함
+
+
+
+
+
 
