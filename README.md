@@ -47,3 +47,11 @@ b : Batch 모드로 작동
 -a : 터미널에서 실행한 프로레스의 정보를 출력한다.
 
 -x : 실행중인 모든 프로세스의 정보를 출력한다.
+
+![ps 명령어](https://user-images.githubusercontent.com/106607389/171991064-76b7348b-d991-49de-9ac6-fc5313fe4472.PNG)
+
+
+> ps와 top의 차이점
+
+ps는 ps한 시점에 proc에서 검색한 cpu 사용량, top는 proc에서 일정 주기로 합산해서 cpu 사용량을 출력한다.
+
